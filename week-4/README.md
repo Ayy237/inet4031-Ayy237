@@ -11,7 +11,16 @@ Runs the incident tracker and a PostgreSQL database as a two-service Compose sta
 \`\`\`
 docker compose up -d --build
 \`\`\`
-
+cd ..
+git checkout -b add-k8s-manifests
+git add week-4/*.yaml week-4/README.md
+git commit -m "feat: add kubernetes manifests generated from compose"
+git push origin add-k8s-manifests
+gh pr create --fill
+gh pr merge --merge --delete-branch
+git checkout master
+git pull origin master
+git branch -d add-k8s-manifests
 ## Verify
 \`\`\`
 docker compose ps
