@@ -1,10 +1,11 @@
 resource "kubernetes_persistent_volume_claim_v1" "db_data" {
   metadata {
-    name = "db-data-v2"
+    name = "db-data"
   }
 
   spec {
     access_modes = ["ReadWriteOnce"]
+    volume_name  = "pvc-08de2a57-b191-490a-bc97-e7bb8ceec4ed"
 
     resources {
       requests = {
