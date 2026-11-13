@@ -1,4 +1,9 @@
 resource "kubernetes_deployment_v1" "web" {
+  lifecycle {
+    ignore_changes = [
+      spec[0].template[0].metadata[0].annotations["kubectl.kubernetes.io/restartedAt"]
+    ]
+  }
   metadata {
     name   = "web"
     labels = { app = "web" }
@@ -25,7 +30,7 @@ resource "kubernetes_deployment_v1" "web" {
 
         container {
           name              = "web"
-          image             = "docker.io/library/week-4-web:latest"
+          image             = "week-4-web:latest"
           image_pull_policy = "IfNotPresent"
 
           port {
