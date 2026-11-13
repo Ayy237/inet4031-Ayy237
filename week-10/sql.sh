@@ -14,7 +14,7 @@ if [ "$#" -gt 1 ]; then
 fi
 
 psql_in_pod() {
-  kubectl exec -i deploy/db -- sh -c 'psql -U "POSTGRESUSER"-d"POSTGRES_DB" -v ON_ERROR_STOP=1 "@"'sh"@"
+  kubectl exec -i deploy/db -- sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -v ON_ERROR_STOP=1'
 }
 
 if [ "$#" -eq 1 ]; then
