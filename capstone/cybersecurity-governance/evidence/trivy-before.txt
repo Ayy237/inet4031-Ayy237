@@ -1,0 +1,216 @@
+2026-11-22T11:59:37Z	INFO	[vulndb] Need to update DB
+2026-11-22T11:59:37Z	INFO	[vulndb] Downloading vulnerability DB...
+2026-11-22T11:59:37Z	INFO	[vulndb] Downloading artifact...	repo="mirror.gcr.io/aquasec/trivy-db:2"
+1.35 MiB / 136.63 MiB [>_________________________________________] 0.98% ? p/s ?5.44 MiB / 136.63 MiB [->________________________________________] 3.98% ? p/s ?11.44 MiB / 136.63 MiB [--->_____________________________________] 8.37% ? p/s ?24.68 MiB / 136.63 MiB [---->______________________] 18.06% 38.89 MiB p/s ETA 2s35.70 MiB / 136.63 MiB [------->___________________] 26.13% 38.89 MiB p/s ETA 2s47.11 MiB / 136.63 MiB [--------->_________________] 34.48% 38.89 MiB p/s ETA 2s58.53 MiB / 136.63 MiB [----------->_______________] 42.84% 40.02 MiB p/s ETA 1s70.62 MiB / 136.63 MiB [------------->_____________] 51.69% 40.02 MiB p/s ETA 1s80.15 MiB / 136.63 MiB [--------------->___________] 58.66% 40.02 MiB p/s ETA 1s86.40 MiB / 136.63 MiB [----------------->_________] 63.23% 40.41 MiB p/s ETA 1s92.58 MiB / 136.63 MiB [------------------>________] 67.76% 40.41 MiB p/s ETA 1s100.77 MiB / 136.63 MiB [------------------->______] 73.76% 40.41 MiB p/s ETA 0s108.19 MiB / 136.63 MiB [-------------------->_____] 79.19% 40.14 MiB p/s ETA 0s115.48 MiB / 136.63 MiB [--------------------->____] 84.52% 40.14 MiB p/s ETA 0s125.79 MiB / 136.63 MiB [----------------------->__] 92.07% 40.14 MiB p/s ETA 0s136.54 MiB / 136.63 MiB [------------------------->] 99.93% 40.63 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 40.63 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 40.63 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 38.02 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 38.02 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 38.02 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 35.56 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 35.56 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 35.56 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 33.27 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 33.27 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 33.27 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 31.12 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 31.12 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 31.12 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 29.12 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 29.12 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 29.12 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 27.24 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 27.24 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 27.24 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 25.48 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 25.48 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 23.84 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 23.84 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 23.84 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 22.30 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 22.30 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 22.30 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 20.86 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 20.86 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 20.86 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 19.51 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 19.51 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 19.51 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 18.25 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 18.25 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 18.25 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 17.08 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 17.08 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 17.08 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 15.98 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 15.98 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 15.98 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 14.94 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 14.94 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 14.94 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 13.98 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 13.98 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 13.98 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 13.08 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 13.08 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 13.08 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 12.23 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 12.23 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 12.23 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 11.45 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 11.45 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 11.45 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 10.71 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 10.71 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 10.71 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 10.02 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 10.02 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------>] 100.00% 10.02 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 9.37 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 9.37 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 9.37 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 8.77 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 8.77 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 8.77 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 8.20 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 8.20 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 8.20 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 7.67 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 7.67 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 7.67 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 7.18 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 7.18 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 7.18 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 6.71 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 6.71 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 6.71 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 6.28 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 6.28 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 6.28 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 5.87 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 5.87 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [------------------------->] 100.00% 5.87 MiB p/s ETA 0s136.63 MiB / 136.63 MiB [-----------------------------] 100.00% 6.59 MiB p/s 21s2026-11-22T11:59:59Z	INFO	[vulndb] Artifact successfully downloaded	repo="mirror.gcr.io/aquasec/trivy-db:2"
+2026-11-22T11:59:59Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-11-22T11:59:59Z	INFO	[misconfig] Misconfiguration scanning is enabled
+2026-11-22T11:59:59Z	INFO	[checks-client] Need to update the checks bundle
+2026-11-22T11:59:59Z	INFO	[checks-client] Downloading the checks bundle...
+234.57 KiB / 234.57 KiB [------------------------------------->] 100.00% ? p/s ?234.57 KiB / 234.57 KiB [---------------------------] 100.00% 1.41 MiB p/s 400ms2026-11-22T12:00:01Z	INFO	[terraform scanner] Scanning root module	file_path="week-5"
+2026-11-22T12:00:01Z	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="flask_secret_key, postgres_db, postgres_password, postgres_user"
+2026-11-22T12:00:01Z	WARN	[pip] Unable to find python `site-packages` directory. License detection is skipped.	err="site-packages directory not found"
+2026-11-22T12:00:01Z	INFO	Number of language-specific files	num=3
+2026-11-22T12:00:01Z	INFO	[pip] Detecting vulnerabilities...
+2026-11-22T12:00:01Z	INFO	Detected config files	num=10
+
+Report Summary
+
+┌───────────────────────────────────────────┬────────────┬─────────────────┬───────────────────┐
+│                  Target                   │    Type    │ Vulnerabilities │ Misconfigurations │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ app/requirements.txt                      │    pip     │        0        │         -         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-3/app/requirements.txt               │    pip     │        0        │         -         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-4/app/requirements.txt               │    pip     │        0        │         -         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ app/Dockerfile                            │ dockerfile │        -        │         0         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-3/app/Dockerfile                     │ dockerfile │        -        │         1         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-4/app/Dockerfile                     │ dockerfile │        -        │         1         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-4/db-data-persistentvolumeclaim.yaml │ kubernetes │        -        │         0         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-4/db-deployment.yaml                 │ kubernetes │        -        │         3         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-4/db-service.yaml                    │ kubernetes │        -        │         0         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-4/env-configmap.yaml                 │ kubernetes │        -        │         0         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-4/web-deployment.yaml                │ kubernetes │        -        │         3         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-4/web-service.yaml                   │ kubernetes │        -        │         0         │
+├───────────────────────────────────────────┼────────────┼─────────────────┼───────────────────┤
+│ week-5                                    │ terraform  │        -        │         0         │
+└───────────────────────────────────────────┴────────────┴─────────────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+week-3/app/Dockerfile (dockerfile)
+==================================
+Tests: 20 (SUCCESSES: 19, FAILURES: 1)
+Failures: 1 (HIGH: 1, CRITICAL: 0)
+
+DS-0002 (HIGH): Specify at least 1 USER command in Dockerfile with non-root user as argument
+════════════════════════════════════════════════════════════════════════════════
+Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile.
+
+See https://avd.aquasec.com/misconfig/ds-0002
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+week-4/app/Dockerfile (dockerfile)
+==================================
+Tests: 20 (SUCCESSES: 19, FAILURES: 1)
+Failures: 1 (HIGH: 1, CRITICAL: 0)
+
+DS-0002 (HIGH): Specify at least 1 USER command in Dockerfile with non-root user as argument
+════════════════════════════════════════════════════════════════════════════════
+Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile.
+
+See https://avd.aquasec.com/misconfig/ds-0002
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+week-4/db-deployment.yaml (kubernetes)
+======================================
+Tests: 25 (SUCCESSES: 22, FAILURES: 3)
+Failures: 3 (HIGH: 3, CRITICAL: 0)
+
+KSV-0014 (HIGH): Container 'db' of Deployment 'db' should set 'securityContext.readOnlyRootFilesystem' to true
+════════════════════════════════════════════════════════════════════════════════
+An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.
+
+See https://avd.aquasec.com/misconfig/ksv-0014
+────────────────────────────────────────────────────────────────────────────────
+ week-4/db-deployment.yaml:26-51
+────────────────────────────────────────────────────────────────────────────────
+  26 ┌         - env:
+  27 │             - name: POSTGRES_DB
+  28 │               value: incidents
+  29 │             - name: POSTGRES_PASSWORD
+  30 │               valueFrom:
+  31 │                 secretKeyRef:
+  32 │                   name: db-credentials
+  33 │                   key: POSTGRES_PASSWORD
+  34 └             - name: POSTGRES_USER
+  ..   
+────────────────────────────────────────────────────────────────────────────────
+
+
+KSV-0118 (HIGH): container db in default namespace is using the default security context
+════════════════════════════════════════════════════════════════════════════════
+Security context controls the allocation of security parameters for the pod/container/volume, ensuring the appropriate level of protection. Relying on default security context may expose vulnerabilities to potential attacks that rely on privileged access.
+
+See https://avd.aquasec.com/misconfig/ksv-0118
+────────────────────────────────────────────────────────────────────────────────
+ week-4/db-deployment.yaml:26-51
+────────────────────────────────────────────────────────────────────────────────
+  26 ┌         - env:
+  27 │             - name: POSTGRES_DB
+  28 │               value: incidents
+  29 │             - name: POSTGRES_PASSWORD
+  30 │               valueFrom:
+  31 │                 secretKeyRef:
+  32 │                   name: db-credentials
+  33 │                   key: POSTGRES_PASSWORD
+  34 └             - name: POSTGRES_USER
+  ..   
+────────────────────────────────────────────────────────────────────────────────
+
+
+KSV-0118 (HIGH): deployment db in default namespace is using the default security context, which allows root privileges
+════════════════════════════════════════════════════════════════════════════════
+Security context controls the allocation of security parameters for the pod/container/volume, ensuring the appropriate level of protection. Relying on default security context may expose vulnerabilities to potential attacks that rely on privileged access.
+
+See https://avd.aquasec.com/misconfig/ksv-0118
+────────────────────────────────────────────────────────────────────────────────
+ week-4/db-deployment.yaml:24-56
+────────────────────────────────────────────────────────────────────────────────
+  24 ┌     spec:
+  25 │       containers:
+  26 │         - env:
+  27 │             - name: POSTGRES_DB
+  28 │               value: incidents
+  29 │             - name: POSTGRES_PASSWORD
+  30 │               valueFrom:
+  31 │                 secretKeyRef:
+  32 └                   name: db-credentials
+  ..   
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+week-4/web-deployment.yaml (kubernetes)
+=======================================
+Tests: 25 (SUCCESSES: 22, FAILURES: 3)
+Failures: 3 (HIGH: 3, CRITICAL: 0)
+
+KSV-0014 (HIGH): Container 'web' of Deployment 'web' should set 'securityContext.readOnlyRootFilesystem' to true
+════════════════════════════════════════════════════════════════════════════════
+An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.
+
+See https://avd.aquasec.com/misconfig/ksv-0014
+────────────────────────────────────────────────────────────────────────────────
+ week-4/web-deployment.yaml:24-52
+────────────────────────────────────────────────────────────────────────────────
+  24 ┌         - envFrom:
+  25 │             - configMapRef:
+  26 │                 name: env
+  27 │           env:
+  28 │             - name: FLASK_SECRET_KEY
+  29 │               valueFrom:
+  30 │                 secretKeyRef:
+  31 │                   name: db-credentials
+  32 └                   key: FLASK_SECRET_KEY
+  ..   
+────────────────────────────────────────────────────────────────────────────────
+
+
+KSV-0118 (HIGH): container web in default namespace is using the default security context
+════════════════════════════════════════════════════════════════════════════════
+Security context controls the allocation of security parameters for the pod/container/volume, ensuring the appropriate level of protection. Relying on default security context may expose vulnerabilities to potential attacks that rely on privileged access.
+
+See https://avd.aquasec.com/misconfig/ksv-0118
+────────────────────────────────────────────────────────────────────────────────
+ week-4/web-deployment.yaml:24-52
+────────────────────────────────────────────────────────────────────────────────
+  24 ┌         - envFrom:
+  25 │             - configMapRef:
+  26 │                 name: env
+  27 │           env:
+  28 │             - name: FLASK_SECRET_KEY
+  29 │               valueFrom:
+  30 │                 secretKeyRef:
+  31 │                   name: db-credentials
+  32 └                   key: FLASK_SECRET_KEY
+  ..   
+────────────────────────────────────────────────────────────────────────────────
+
+
+KSV-0118 (HIGH): deployment web in default namespace is using the default security context, which allows root privileges
+════════════════════════════════════════════════════════════════════════════════
+Security context controls the allocation of security parameters for the pod/container/volume, ensuring the appropriate level of protection. Relying on default security context may expose vulnerabilities to potential attacks that rely on privileged access.
+
+See https://avd.aquasec.com/misconfig/ksv-0118
+────────────────────────────────────────────────────────────────────────────────
+ week-4/web-deployment.yaml:22-53
+────────────────────────────────────────────────────────────────────────────────
+  22 ┌     spec:
+  23 │       containers:
+  24 │         - envFrom:
+  25 │             - configMapRef:
+  26 │                 name: env
+  27 │           env:
+  28 │             - name: FLASK_SECRET_KEY
+  29 │               valueFrom:
+  30 └                 secretKeyRef:
+  ..   
+────────────────────────────────────────────────────────────────────────────────
+
+

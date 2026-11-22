@@ -1,0 +1,20 @@
+NAME              STATUS   ROLES           AGE   VERSION
+inet4031-server   Ready    control-plane   49d   v1.36.5+k3s1
+NAME                                 READY   STATUS    RESTARTS        AGE
+db-6f5687844d-v56dp                  1/1     Running   1 (8m4s ago)    8d
+postgres-exporter-664d9d4bcd-6zb22   1/1     Running   2 (8m4s ago)    13d
+web-b46bd6548-lk5cx                  1/1     Running   2 (7m42s ago)   8d
+NAME                                             READY   STATUS      RESTARTS        AGE
+prometheus-kube-state-metrics-86f6b846bf-4m9tg   1/1     Running     17 (8m5s ago)   13d
+prometheus-kube-state-metrics-86f6b846bf-xhht7   0/1     Error       14 (13d ago)    35d
+prometheus-prometheus-node-exporter-pkqdb        1/1     Running     23 (8d ago)     13d
+prometheus-server-6944b769c9-nwjzr               2/2     Running     26 (8m5s ago)   13d
+prometheus-server-6944b769c9-vvfg7               0/2     Completed   14 (13d ago)    28d
+NAME               POD-SELECTOR   AGE
+db-from-exporter   app=db         13d
+db-from-web-only   app=db         21d
+NAME      AGE
+default   49d
+{"status":"ok"}
+
+26299736 protect-master active

@@ -1,0 +1,11 @@
+=== LAB 11 SECURITY TOOLS ===
+Trivy:
+Version: 0.76.2
+Gitleaks:
+8.30.1
+kube-score:
+kube-score version: 1.20.0, commit: 81371e9f53b633bec69423fc298295bd71bd869a, built: 2025-04-28T16:54:40Z
+Checkov:
+3.4.6
+jq:
+jq-1.8.1
